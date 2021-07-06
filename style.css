@@ -1,0 +1,223 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    line-height: 1.2;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(58,58,58);
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+/* navbar */
+#navbar{
+    margin-left: 50px ;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* first section */
+#first-section{
+    display: flex;
+    padding-top: 30px;
+    margin: 20px 0;
+}
+.order{
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.half-width img{
+    width: 100%;
+    padding-left: 80px;
+    margin-left: 10px;
+}
+#first-section a{
+    text-decoration: none;
+    padding: 15px 15px; 
+    margin-left: 60px;
+    color: white;
+    background-image: linear-gradient(orangered, orange);
+    border-radius: 20px;
+}
+.likha{
+    color : rgb(68,68,68);
+    width: 80%;
+    margin: 20px 0 40px 0;
+    padding-left: 60px;
+}
+/* about section start */
+#about-section{
+    display: flex;
+    padding-top: 100px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin: 20px 0;
+}
+.half-width-img img{
+    width: 40%;
+    padding-left: 180px;
+}
+.half-width-text{
+    width: 70%;
+    padding-right: 10px;
+    justify-content: center;
+}
+#about-section p{
+    width: 80%;
+    margin: 20px 0 40px 0;
+}
+h2{
+    line-height: 1.2;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(58,58,58);
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    padding: 15px 15px;
+    color: white;
+    background-image: linear-gradient(orangered, orange);
+    border-radius: 20px;
+}
+/* receipies start */
+.receipies-info h2, .receipies-info p{
+    padding-bottom: 20px;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+#receipe-section .recipies{
+    width: 80%;
+    margin: 20px 20px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 10px 5px 10px 10px gainsboro;
+}
+.re{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: auto;
+}
+.recipies img{
+    width: 80%;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    height: auto;
+}
+.receipe-title{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+.receipe-info{
+    font-style: italic;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+/* review */
+#review .review-one{
+    width: 80%;
+    margin: 20px 20px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: auto;
+}
+#review h2{
+    padding-top: 15px;
+    text-align: center;
+}
+.review-one h1{
+    padding: 0;
+    padding-left: 15px;
+}
+.review-title{
+    padding-left: 20px;
+    text-align: center;
+}
+.reviewer-name{
+    text-align: end;
+    color: rosybrown;
+    padding-right: 15px;
+}
+/* stats start */
+#stats{
+    margin-top: 50px;
+    width: 81%;
+    box-shadow: 2px 5px 2px 5px wheat;
+    margin-left: 125px;
+    margin-right: 110px;
+    border-radius: 20px;
+}
+#stats .r{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#stats h1, #stats p{
+    padding-left: 30px;
+    padding-top: 0px;
+}
+/* footer start */
+footer{
+    width: 100%;
+    background-color: black;
+}
+footer h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.footer-info{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-bottom: 35px;
+}
