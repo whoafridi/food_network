@@ -47,12 +47,12 @@ h1{
 .order{
     color: orangered;
 }
-.half-width{
+.hero-info{
     width: 40%;
     padding-left: 20px;
     margin-left: 20px;
 }
-.half-width img{
+.hero-info img{
     width: 100%;
     padding-left: 80px;
     margin-left: 10px;
@@ -79,11 +79,11 @@ h1{
     background-repeat: no-repeat;
     margin: 20px 0;
 }
-.half-width-img img{
+.about-image img{
     width: 40%;
     padding-left: 180px;
 }
-.half-width-text{
+.about-image-text{
     width: 70%;
     padding-right: 10px;
     justify-content: center;
@@ -115,6 +115,15 @@ a{
     width: 40%;
     margin: auto;
 }
+.receipe-details{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: auto;
+}
 #receipe-section .recipies{
     width: 80%;
     margin: 20px 20px;
@@ -123,15 +132,6 @@ a{
     border: 1px solid white;
     border-radius: 25px;
     box-shadow: 10px 5px 10px 10px gainsboro;
-}
-.re{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-left: 110px;
-    margin-right: 110px;
-    height: auto;
 }
 .recipies img{
     width: 80%;
@@ -196,7 +196,7 @@ a{
     margin-right: 110px;
     border-radius: 20px;
 }
-#stats .r{
+#stats .receipe-details{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
