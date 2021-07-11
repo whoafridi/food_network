@@ -2,6 +2,4 @@
 First assignment of programming hero course 
 
 ### Output
-![[image]](/images/screenshot.png)
-
 ![[image]](/images/ss.png)
